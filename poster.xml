@@ -1,0 +1,26 @@
+<poster>
+    <movie>Pulp Fiction</movie>
+    <director>Quentin Tarantino</director>
+    <themes>
+        <theme>Crime</theme>
+        <theme>Thriller</theme>
+        <theme>Comedy</theme>
+    </themes>
+    <size>A3</size>
+    <format>PNG</format>
+    <printDate>1994-10-28</printDate>
+    <actors>
+        <actor>
+            <name>John Travolta</name>
+            <role>Vincent Vega</role>
+        </actor>
+        <actor>
+            <name>Uma Thurman</name>
+            <role>Mia Wallace</role>
+        </actor>
+        <actor>
+            <name>Samuel L. Jackson</name>
+            <role>Jules Winnfield</role>
+        </actor>
+    </actors>
+</poster>

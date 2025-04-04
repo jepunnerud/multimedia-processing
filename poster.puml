@@ -1,0 +1,26 @@
+@startuml poster
+class Poster {
+    + movie: String
+    + director: String
+    + size: String
+    + format: String
+    + printDate: Date
+}
+
+class Themes {
+    + theme: String [*]
+}
+
+class Actors {
+    + actor: Actor [*]
+}
+
+class Actor {
+    + name: String
+    + role: String
+}
+
+Poster --> Themes
+Poster --> Actors
+Actors --> Actor
+@enduml

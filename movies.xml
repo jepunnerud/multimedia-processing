@@ -1,0 +1,42 @@
+<movie>
+    <movie_id></movie_id>
+    <title></title>
+    <release_date_movie></release_date_movie>
+    <IMDB_rating></IMDB_rating>
+    <language></language>
+    <video_url></video_url>
+    <trailer_url></trailer_url>
+    <description></description>
+
+    <director>
+        <director_id></director_id>
+        <name></name>
+        <birthdate></birthdate>
+        <nationality></nationality>
+    </director>
+
+    <poster>
+        <poster_id></poster_id>
+        <release_date_poster></release_date_poster>
+        <resolution></resolution>
+        <file_format></file_format>
+        <image_url></image_url>
+    </poster>
+
+    <movie_actors>
+        <movie_actor>
+            <actor_id></actor_id>
+            <movie_id></movie_id>
+            <character_name></character_name>
+        </movie_actor>
+    </movie_actors>
+
+    <actors>
+        <actor>
+            <actor_id></actor_id>
+            <name></name>
+            <birthdate></birthdate>
+            <nationality></nationality>
+        </actor>
+    </actors>
+</movie>

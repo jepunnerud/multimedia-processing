@@ -1,0 +1,43 @@
+@startuml movie
+class Movie {
+    + movie_id: String
+    + title: String
+    + release_date_movie: Date
+    + IMDB_rating: Float
+    + language: String
+    + video_url: String
+    + trailer_url: String
+    + description: String
+}
+
+class Director {
+    + director_id: String
+    + name: String
+    + birthdate: Date
+    + nationality: String
+}
+
+class Poster {
+    + poster_id: String
+    + release_date_poster: Date
+    + resolution: String
+    + file_format: String
+    + image_url: String
+}
+
+class Movie_Actor {
+    + character_name: String
+}
+
+class Actor {
+    + actor_id: String
+    + name: String
+    + birthdate: Date
+    + nationality: String
+}
+
+Movie "1" --> "1" Director
+Movie "1" --> "0..1" Poster
+Movie "1" --> "0..*" Movie_Actor
+Actor "1" --> "0..*" Movie_Actor
+@enduml
